@@ -17,6 +17,12 @@ const NavBarComponent = () => {
             About
         </NavLink>
         <NavLink 
+            to="/projects"
+            exact
+            >
+          Projects
+        </NavLink>
+        <NavLink 
             to="/resume"
             >
             Resume
@@ -31,12 +37,6 @@ const NavBarComponent = () => {
             >
             LinkdIn
         </a>
-        <NavLink 
-        to="/projects"
-        exact
-        >
-          Projects
-        </NavLink>
     </div>
   );
 };
