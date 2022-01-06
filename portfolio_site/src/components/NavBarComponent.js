@@ -42,4 +42,4 @@ const NavBarComponent = () => {
   );
 };
 
-export default NavBar;
+export default NavBarComponent;
