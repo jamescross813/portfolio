@@ -4,7 +4,7 @@ class HeaderComponent extends Component{
     render(){
         return(
             <div>
-                <a href ="https://timelinecovers.pro/facebook-cover/download/planets-drawing-facebook-cover.jpg"></a>
+                <img src ="https://timelinecovers.pro/facebook-cover/download/planets-drawing-facebook-cover.jpg"></img>
             </div>
         )
     }
