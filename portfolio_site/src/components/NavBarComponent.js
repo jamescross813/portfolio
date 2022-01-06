@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const NavBarComponent = () => {
   return (
@@ -21,12 +21,12 @@ const NavBarComponent = () => {
             >
             Resume
         </NavLink>
-        <NavLink 
-            to="https://github.com/jamescross813"
-            exact
+        <a href=
+           "https://github.com/jamescross813"
+            
             >
             GitHub
-        </NavLink>
+        </a>
         <NavLink
             to="/LinkedIn"
             >
