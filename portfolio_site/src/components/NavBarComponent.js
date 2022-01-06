@@ -22,7 +22,7 @@ const NavBarComponent = () => {
             Resume
         </NavLink>
         <NavLink 
-            to="/github"
+            to="https://github.com/jamescross813"
             exact
             >
             GitHub
