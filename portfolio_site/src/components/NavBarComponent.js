@@ -23,15 +23,14 @@ const NavBarComponent = () => {
         </NavLink>
         <a href=
            "https://github.com/jamescross813"
-            
             >
             GitHub
         </a>
-        <NavLink
-            to="/LinkedIn"
+        <a href=
+           "https://www.linkedin.com/in/jamescross813/"
             >
-            LinkedIn    
-            </NavLink>
+            LinkdIn
+        </a>
         <NavLink 
         to="/projects"
         exact
