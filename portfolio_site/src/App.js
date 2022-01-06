@@ -12,6 +12,9 @@ function App() {
       </header>
       <Router>
         <NavBarComponent />
+        {/* about route? */}
+        {/* project route */}
+        {/* screenshot route */}
       </Router>
     </div>
   );
