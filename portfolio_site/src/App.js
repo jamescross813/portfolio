@@ -1,14 +1,15 @@
 import './App.css';
 import HeaderComponent from "./components/HeaderComponent";
+import NavBarComponent from "./components/NavBarComponent";
 
 function App() {
   return (
     <div className="App">
-      {/* <NavBarComponent /> */}
+      
       <header className="App-header">
               <HeaderComponent/> 
       </header>
-      
+      <NavBarComponent />
     </div>
   );
 }
