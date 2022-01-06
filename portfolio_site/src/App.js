@@ -1,6 +1,7 @@
 import './App.css';
 import HeaderComponent from "./components/HeaderComponent";
 import NavBarComponent from "./components/NavBarComponent";
+import { BrowserRouter as Router, Route } from "react-router-dom"
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <header className="App-header">
               <HeaderComponent/> 
       </header>
-      <NavBarComponent />
+      <Router>
+        <NavBarComponent />
+      </Router>
     </div>
   );
 }
