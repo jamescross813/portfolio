@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 
-class BlogsComponent extends Component{
-    render(){
+const BlogsComponent = () => {
+
+    
         return(
             <div>
-                
+                <h1>Bloggy Blogs</h1>
             </div>
         )
-    }
+    
 } 
 
 export default BlogsComponent
