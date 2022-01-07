@@ -11,6 +11,16 @@ const BlogsComponent = () => {
         fifthProject: "React Project",
         ending: "Next steps blog"
     }
+
+    const blogLinks = {
+        1: "",
+        2: "",
+        3: "",
+        4: "",
+        5: "",
+        6: "",
+        7: ""
+    }
     
         return(
             <div>
