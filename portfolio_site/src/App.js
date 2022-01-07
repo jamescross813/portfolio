@@ -2,6 +2,7 @@ import './App.css';
 import HeaderComponent from "./components/HeaderComponent";
 import NavBarComponent from "./components/NavBarComponent";
 import { BrowserRouter as Router, Route } from "react-router-dom"
+import AboutComponent from "./components/AboutComponent";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header>
       <Router>
         <NavBarComponent />
+        <AboutComponent />
         {/* about route? */}
         {/* project route */}
         {/* screenshot route */}
