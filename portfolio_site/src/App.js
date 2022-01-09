@@ -15,7 +15,7 @@ function App() {
       <Router>
         <NavBarComponent />
         <AboutComponent />
-        <BlogsComponent
+        <BlogsComponent />
         {/* about route? */}
         {/* project route */}
         {/* screenshot route */}
