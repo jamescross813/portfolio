@@ -22,16 +22,14 @@ const BlogsComponent = () => {
         7: "https://crossjames813.wixsite.com/my-site/post/journey-s-end-marathon-s-beginning"
     }
     
-    let render_blog = ()=>{
-        blogLinks.each((blogLink)=>{
-            console.log(blogLink)
-        })
+    let renderBlog = ()=>{
+        console.log(blogLinks)
     }
         return(
             <div>
                 
                 <h1>Bloggy Blogs</h1>
-                {render_blog}
+                {renderBlog()}
             </div>
         )
     
