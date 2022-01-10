@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Link } from "react-router-dom"
 
 const BlogsComponent = () => {
     
@@ -23,7 +24,7 @@ const BlogsComponent = () => {
     ]
     
     let renderBlog = ()=>{
-        blogLinks.map((link)=>console.log(link))
+        blogLinks.map((link)=>console.log(link.key))
     }
         return(
             <div>
