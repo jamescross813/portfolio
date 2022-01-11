@@ -34,8 +34,9 @@ const BlogsComponent = () => {
         return(
             <div>
                 <h1>Bloggy Blogs</h1>
-                {renderBlog(blogLinks)}
+                
                 {renderBlog(waffle)}
+                {renderBlog(blogLinks)}
             </div>
         )
     
