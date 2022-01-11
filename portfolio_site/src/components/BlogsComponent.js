@@ -4,13 +4,13 @@ import React from 'react'
 const BlogsComponent = () => {
     
     const waffle = [
-        {starting: "First Blog"},
-        {firstProject: "CLI Project"},
-        {secondProject: "Sinatra Project"},
-        {thirdProject: "Rails Project"},
-        {fourthProject: "JS Project"},
-        {fifthProject: "React Project"},
-        {ending: "Next steps blog"}
+        {1: "First Blog"},
+        {2: "CLI Project"},
+        {3: "Sinatra Project"},
+        {4: "Rails Project"},
+        {5: "JS Project"},
+        {6: "React Project"},
+        {7: "Next steps blog"}
     ]
 
     let blogLinks = [
@@ -23,10 +23,10 @@ const BlogsComponent = () => {
         {7: "https://crossjames813.wixsite.com/my-site/post/journey-s-end-marathon-s-beginning"}
     ]
     
-    let renderBlog = ()=>{
+    let renderBlog = (blogInfo)=>{
         let i = 1
-        blogLinks.map((link)=>{
-            console.log(link[i])
+        blogInfo.map((info)=>{
+            console.log(info[i])
         i+=1})
         }
     
@@ -34,7 +34,7 @@ const BlogsComponent = () => {
         return(
             <div>
                 <h1>Bloggy Blogs</h1>
-                {renderBlog()}
+                {renderBlog(blogLinks)}
             </div>
         )
     
