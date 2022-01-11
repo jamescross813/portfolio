@@ -24,8 +24,13 @@ const BlogsComponent = () => {
     ]
     
     let renderBlog = ()=>{
-        blogLinks.map((link)=>console.log(link.key))
-    }
+        let i = 1
+        blogLinks.map((link)=>{
+            console.log(link[i])
+        i+=1})
+        }
+    
+    
         return(
             <div>
                 <h1>Bloggy Blogs</h1>
