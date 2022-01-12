@@ -25,7 +25,7 @@ const BlogsComponent = () => {
     
     let renderBlog = (blogInfo)=>{
         return blogInfo.map((info)=>{
-            return <p>{info}</p>
+            // return <p>{info}</p>
         })
         }
     
