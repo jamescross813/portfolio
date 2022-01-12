@@ -30,14 +30,12 @@ const BlogsComponent = () => {
         }
     
     
-        return(
-            <div>
-                <h1>Bloggy Blogs</h1>
-                
-                {renderBlog(waffle)}
-                {/* {renderBlog(blogLinks)} */}
-            </div>
-        )
+    return(
+        <div>
+            <h1>Bloggy Blogs</h1>
+            {renderBlog(waffle)}
+        </div>
+    )
     
 } 
 
