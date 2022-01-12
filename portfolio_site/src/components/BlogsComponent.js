@@ -24,10 +24,9 @@ const BlogsComponent = () => {
     ]
     
     let renderBlog = (blogInfo)=>{
-        let i = 1
         return blogInfo.map((info)=>{
-            <p>{info[i]}</p>
-        i+=1})
+            return <p>{info}</p>
+        })
         }
     
     
@@ -36,7 +35,7 @@ const BlogsComponent = () => {
                 <h1>Bloggy Blogs</h1>
                 
                 {renderBlog(waffle)}
-                {renderBlog(blogLinks)}
+                {/* {renderBlog(blogLinks)} */}
             </div>
         )
     
