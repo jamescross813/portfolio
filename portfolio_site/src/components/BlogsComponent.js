@@ -25,8 +25,8 @@ const BlogsComponent = () => {
     
     let renderBlog = (blogInfo)=>{
         let i = 1
-        blogInfo.map((info)=>{
-            console.log(info[i])
+        return blogInfo.map((info)=>{
+            <p>{info[i]}</p>
         i+=1})
         }
     
@@ -35,7 +35,7 @@ const BlogsComponent = () => {
             <div>
                 <h1>Bloggy Blogs</h1>
                 
-                <p>{renderBlog(waffle)}</p>
+                {renderBlog(waffle)}
                 {renderBlog(blogLinks)}
             </div>
         )
