@@ -4,13 +4,13 @@ import React from 'react'
 const BlogsComponent = () => {
     
     const waffle = [
-        {1: "First Blog"},
-        {2: "CLI Project"},
-        {3: "Sinatra Project"},
-        {4: "Rails Project"},
-        {5: "JS Project"},
-        {6: "React Project"},
-        {7: "Next steps blog"}
+        "First Blog",
+        "CLI Project",
+        "Sinatra Project",
+        "Rails Project",
+        "JS Project",
+        "React Project",
+        "Next steps blog"
     ]
 
     let blogLinks = [
