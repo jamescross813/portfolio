@@ -4,7 +4,7 @@ class ProjectsComponent extends Component{
     render(){
         return(
             <div>
-                
+                {/* include screen shots and descriptions */}
             </div>
         )
     }
