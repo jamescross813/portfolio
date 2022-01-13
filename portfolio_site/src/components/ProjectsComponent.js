@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 
 const ProjectsComponent = ()=>{
     
+    const screenshots = []
 
+    const projectWaffle = []
     
     return(
         <div>
