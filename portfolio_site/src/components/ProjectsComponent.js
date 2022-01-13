@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 
-class ProjectsComponent extends Component{
-    render(){
+const ProjectsComponent = ()=>{
+
+
+    
         return(
             <div>
                 {/* include screen shots and descriptions */}
             </div>
         )
-    }
+    
 } 
 
 export default ProjectsComponent
