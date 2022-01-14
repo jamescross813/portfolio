@@ -4,9 +4,9 @@ const ProjectsComponent = ()=>{
     
     const screenshots = []
 
-    const projectWaffle = [""]
+    const projectWaffle = ["Made to solve the eternal dilema of what game to play", "Can be used to plan game times with friends"]
 
-    const projectTitle = []
+    const projectTitle = ["Uncontentious", "GeekyNameApp"]
     
     return(
         <div>
