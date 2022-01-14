@@ -4,7 +4,9 @@ const ProjectsComponent = ()=>{
     
     const screenshots = []
 
-    const projectWaffle = []
+    const projectWaffle = [""]
+
+    const projectTitle = []
     
     return(
         <div>
