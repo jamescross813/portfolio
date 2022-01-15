@@ -10,7 +10,11 @@ const ProjectsComponent = ()=>{
 
     let renderProjectInfo = (projectInfo)=>{
         return projectInfo.map((info, index)=>{
-                console.log(info)
+                return(
+                    <><h2>{info}</h2>
+                    <p>{projectWaffle[index]}</p>
+                    <img src={screenshots[index]} className={`screenshot ${index}`} alt={`screenshot ${index}`} /></>
+                )
             })
         }
     
