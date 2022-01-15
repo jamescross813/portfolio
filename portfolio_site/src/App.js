@@ -17,9 +17,8 @@ function App() {
         <NavBarComponent />
         <AboutComponent />
         {/* <BlogsComponent /> */}
-        {/* about route? */}
         {/* <ProjectsComponent /> */}
-        {/* screenshot route */}
+        {/* about route? */}
       </Router>
     </div>
   );
