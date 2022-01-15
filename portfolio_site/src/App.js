@@ -18,7 +18,7 @@ function App() {
         <AboutComponent />
         {/* <BlogsComponent /> */}
         {/* about route? */}
-        <ProjectsComponent />
+        {/* <ProjectsComponent /> */}
         {/* screenshot route */}
       </Router>
     </div>
