@@ -18,6 +18,7 @@ function App() {
         <AboutComponent />
         <Route to exact path ="/blogs"><BlogsComponent/></Route> 
         {/* <BlogsComponent /> */}
+        <Route to exact path = "/projects"><ProjectsComponent/></Route>
         {/* <ProjectsComponent /> */}
         {/* about route? */}
       </Router>
