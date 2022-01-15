@@ -4,6 +4,7 @@ import NavBarComponent from "./components/NavBarComponent";
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import AboutComponent from "./components/AboutComponent";
 import BlogsComponent from "./components/BlogsComponent";
+import ProjectsComponent from "./components/ProjectsComponent";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <AboutComponent />
         {/* <BlogsComponent /> */}
         {/* about route? */}
-        {/* project route */}
+        <ProjectsComponent />
         {/* screenshot route */}
       </Router>
     </div>
