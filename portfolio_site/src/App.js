@@ -16,6 +16,7 @@ function App() {
       <Router>
         <NavBarComponent />
         <AboutComponent />
+        <Route to exact path ="/blogs"><BlogsComponent/></Route> 
         {/* <BlogsComponent /> */}
         {/* <ProjectsComponent /> */}
         {/* about route? */}
