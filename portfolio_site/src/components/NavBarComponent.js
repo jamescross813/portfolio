@@ -28,6 +28,11 @@ const NavBarComponent = () => {
             Resume
         </NavLink> */}
         <a href=
+          "https://docs.google.com/document/d/19zFdYFqQNTxBDGIn7qVYPMQWJRZM5ePV8UnaA7_bIY4/edit"
+          >
+          Resume  
+          </a>
+        <a href=
            "https://github.com/jamescross813"
             >
             GitHub
