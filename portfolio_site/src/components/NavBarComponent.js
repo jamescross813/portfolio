@@ -22,11 +22,11 @@ const NavBarComponent = () => {
             >
             Blogs
         </NavLink>
-        <NavLink 
+        {/* <NavLink 
             to="/resume"
             >
             Resume
-        </NavLink>
+        </NavLink> */}
         <a href=
            "https://github.com/jamescross813"
             >
