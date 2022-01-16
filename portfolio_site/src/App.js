@@ -15,7 +15,7 @@ function App() {
       </header>
       <Router>
         <NavBarComponent />
-        <AboutComponent />
+        <Route to exact path = "/" component = {AboutComponent} />
         <Route to exact path ="/blogs" component = {BlogsComponent} />
         {/* <BlogsComponent /> */}
         <Route to exact path = "/projects" component = {ProjectsComponent} />
