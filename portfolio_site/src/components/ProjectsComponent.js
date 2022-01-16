@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import uncontentiousScreenshot from "../images/screenshot1_resize.png"
+import geekyNameAppScreenshot from "../images/screenshot2.png"
 
 const ProjectsComponent = ()=>{
     
-    const screenshots = [uncontentiousScreenshot]
+    const screenshots = [uncontentiousScreenshot, geekyNameAppScreenshot]
 
     const projectWaffle = ["Made to solve the eternal dilema of what game to play", "Can be used to plan game times with friends"]
 
