@@ -22,7 +22,6 @@ const ProjectsComponent = ()=>{
     return(
         <div>
             {renderProjectInfo(projectTitle)}
-            {/* include screen shots and descriptions */}
         </div>
     )
     
