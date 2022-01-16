@@ -16,7 +16,7 @@ function App() {
       <Router>
         <NavBarComponent />
         <AboutComponent />
-        <Route to exact path ="/blogs"><BlogsComponent/></Route> 
+        <Route to exact path ="/blogs" component = {BlogsComponent} />
         {/* <BlogsComponent /> */}
         <Route to exact path = "/projects"><ProjectsComponent/></Route>
         {/* <ProjectsComponent /> */}
