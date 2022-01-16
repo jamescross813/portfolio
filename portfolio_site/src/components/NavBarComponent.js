@@ -5,7 +5,7 @@ const NavBarComponent = () => {
   return (
     <div className="navbar">
         <NavLink
-            to="/about"
+            to="/"
             exact
             >
             About
