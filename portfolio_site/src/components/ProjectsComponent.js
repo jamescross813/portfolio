@@ -14,7 +14,7 @@ const ProjectsComponent = ()=>{
         return projectInfo.map((info, index)=>{
                 return(
                     <><h2>{info}</h2>
-                    <p>{projectWaffle[index]}</p>
+                    <p className = {`info${index}`}>{projectWaffle[index]}</p>
                     <img src={screenshots[index]} className={`screenshot ${index}`} alt={`screenshot ${index}`} /></>
                 )
             })
