@@ -25,7 +25,7 @@ const BlogsComponent = () => {
     
     let renderBlog = (blogInfo)=>{
         return blogInfo.map((info, index)=>{
-                return <a href={blogLinks[index]}><p>{info}</p></a>
+                return <a href={blogLinks[index]} className = {`blogLink${index}`}><p className = {`blogInfo${index}`}>{info}</p></a>
             })
         }
     
