@@ -10,6 +10,8 @@ const ProjectsComponent = ()=>{
 
     const projectTitle = ["Uncontentious", "GeekyNameApp"]
 
+    const projectVidLink = ["https://www.youtube.com/watch?v=FMnG0BQQPfE&list=PLnLIWZ5hYpcGwxJ6kRFzrMmPrc9YrMfi7&index=3", "https://www.youtube.com/watch?v=vCBWIW6i9uU&list=PLnLIWZ5hYpcGwxJ6kRFzrMmPrc9YrMfi7&index=5"]
+
     let renderProjectInfo = (projectInfo)=>{
         return projectInfo.map((info, index)=>{
                 return(
