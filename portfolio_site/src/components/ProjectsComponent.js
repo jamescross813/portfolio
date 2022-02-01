@@ -17,7 +17,7 @@ const ProjectsComponent = ()=>{
                 return(
                     <><h2>{info}</h2>
                     <p className = {`info${index}`}>{projectWaffle[index]}</p>
-                    <img src={screenshots[index]} className={`screenshot ${index}`} alt={`screenshot ${index}`} /></>
+                    <a href ={projectVidLink[index]}><img src={screenshots[index]} className={`screenshot ${index}`} alt={`screenshot ${index}`} /></a>
                 )
             })
         }
